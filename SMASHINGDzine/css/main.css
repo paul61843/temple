@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background: url(../img/body_bg.jpg) repeat-x 0px 0px; }
+
+.container {
+  width: 960px;
+  margin: 0 auto; }
+
+.header {
+  position: relative; }
+
+.header h1 {
+  display: block;
+  float: left;
+  width: 360px;
+  height: 115px;
+  background: url(../img/logo.jpg); }
+  .header h1 a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: white; }
+
+.header .phone {
+  height: 47px;
+  position: absolute;
+  top: 41px;
+  right: 0;
+  text-align: right;
+  padding: 5px 50px 0 0;
+  background: url(../img/phone_icon.jpg) no-repeat right 0px; }
+  .header .phone p {
+    font-size: 20px;
+    font-weight: bold; }
+  .header .phone small {
+    font-weight: bold; }
+
+.nav {
+  clear: both; }
+  .nav ul {
+    float: left; }
+  .nav ul li {
+    list-style-type: none;
+    display: block;
+    height: 35px;
+    float: left;
+    padding: 0px 1px 1px 0px;
+    margin: 0px 1px;
+    border-radius: 5px 5px 0px 0px; }
+    .nav ul li a {
+      color: #3f3f3f;
+      display: block;
+      text-decoration: none;
+      height: 100%;
+      line-height: 35px;
+      padding: 0 18px;
+      color: black; }
+    .nav ul li.active {
+      background: orange; }
+      .nav ul li.active a {
+        color: #fff; }
+    .nav ul li:hover {
+      background: orange; }
+      .nav ul li:hover a {
+        color: #fff; }
+
+.main__movie {
+  margin: 80px 0px;
+  height: 360px;
+  width: 960px;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box; }
+  .main__movie .movie__banner {
+    float: left;
+    height: 340px;
+    width: 630px;
+    background: url(../img/fp-01.jpg) no-repeat; }
+  .main__movie form {
+    float: right;
+    margin: 0px;
+    padding: 20px;
+    background-color: orange;
+    height: 300px;
+    width: 260px; }
+    .main__movie form h2 {
+      color: #fff;
+      margin-bottom: 20px; }
+    .main__movie form p {
+      color: #fff; }
+    .main__movie form input {
+      height: 25px;
+      width: 260px;
+      margin: 5px 0px;
+      border: 1px solid #ddd;
+      border-radius: 5px; }
+    .main__movie form textarea {
+      width: 260px;
+      margin: 5px 0px;
+      border: 1px solid #ddd;
+      border-radius: 5px; }
+    .main__movie form button {
+      background: black;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 5px;
+      border: none; }
+
+.main__card {
+  clear: both;
+  width: 100%;
+  height: 250px; }
+  .main__card .col {
+    float: left;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; }
+    .main__card .col h2 {
+      margin-bottom: 10px; }
+    .main__card .col img {
+      float: right;
+      margin: 0px 0px 10px 10px;
+      padding: 2px;
+      border: 1px solid #ddd; }
+    .main__card .col small {
+      color: #767676; }
+    .main__card .col a {
+      display: block;
+      margin-top: 20px;
+      color: black; }
+
+.footer {
+  width: 100%;
+  background: #767676; }
+  .footer .container {
+    margin: 0 auto;
+    padding: 30px 0px;
+    width: 960px;
+    position: relative; }
+    .footer .container small {
+      display: block;
+      color: #DDD;
+      padding-bottom: 5px; }
+      .footer .container small a {
+        color: #DDD; }
+    .footer .container form {
+      position: absolute;
+      right: 0;
+      top: 20px;
+      width: 300px; }
+      .footer .container form p {
+        margin-bottom: 5px; }
+      .footer .container form input {
+        border-radius: 5px;
+        padding: 7px; }
+      .footer .container form button {
+        background: black;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: none; }
